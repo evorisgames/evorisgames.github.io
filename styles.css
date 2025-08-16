@@ -1,0 +1,16 @@
+:root{--cyan:#08AAB9;--bg:#000;--ink:#EAF6F8;--muted:#9FB5B9;--panel:#121212}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+.hero{display:flex;align-items:center;justify-content:center;background:#000}
+.hero-banner{width:100%;max-height:380px;object-fit:cover;display:block;opacity:.95}
+.sr-only{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+.container{max-width:1080px;margin:0 auto;padding:24px}
+.intro{display:grid;grid-template-columns:140px 1fr;gap:24px;align-items:center;margin-top:-60px;background:linear-gradient(180deg,rgba(8,170,185,.09),transparent);padding:24px;border-radius:12px}
+.emblem{width:120px;height:120px;border-radius:16px;background:#000;box-shadow:0 0 0 6px rgba(8,170,185,.25)}
+.cta-row{display:flex;gap:12px;margin-top:12px}
+.btn{background:var(--cyan);color:#002129;text-decoration:none;padding:12px 16px;border-radius:10px;font-weight:700;letter-spacing:.3px}
+.btn.outline{background:transparent;border:2px solid var(--cyan);color:var(--ink)}
+.games{margin-top:28px}
+.cards{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.cards li{background:#0B0B0B;border:1px solid #1b1b1b;border-radius:12px;padding:16px}
+.footer{text-align:center;color:#9FB5B9;padding:40px 0}
+a{color:var(--cyan)}
